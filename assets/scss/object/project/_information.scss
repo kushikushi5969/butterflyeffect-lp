@@ -57,6 +57,19 @@
     &.small {
       font-size: 12px;
     }
+
+    &.date {
+      font-size: 16px;
+      @media (min-width: 376px) {
+        font-size: 19px;
+      }
+      @media (min-width: 376px) {
+        font-size: 20px;
+      }
+      @media (min-width: 407px) {
+        font-size: 22px;
+      }
+    }
   }
 
   &__contact {
