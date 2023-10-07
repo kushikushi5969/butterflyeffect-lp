@@ -44,5 +44,14 @@
     &:not(:last-child) {
       margin-bottom: 45px;
     }
+
+    span {
+      br {
+        display: none;
+        @media (min-width: 675px) {
+          display: block;
+        }
+      }
+    }
   }
 }
